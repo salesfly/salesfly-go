@@ -13,10 +13,10 @@ func Test_PDF_HTML(t *testing.T) {
 	assert.NoError(t, err)
 	assert.NotNil(t, client)
 
-	params := salesfly.PDFOptions{
+	options := salesfly.PDFOptions{
 		DocumentURL: "https://example.com",
 	}
-	buffer, err := client.PDF.Create(&params)
+	buffer, err := client.PDF.Create(&options)
 	assert.NoError(t, err)
 	assert.NotEmpty(t, buffer)
 

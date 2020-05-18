@@ -18,7 +18,7 @@ func Test_SMS_Send(t *testing.T) {
 		to = "+12125551234"
 	}
 
-	receipt, err := client.SMS.Send("Objectia", to, "This is a test")
+	receipt, err := client.SMS.Send("Salesfly", to, "This is a test")
 	assert.NoError(t, err)
 	assert.NotEmpty(t, receipt)
 }

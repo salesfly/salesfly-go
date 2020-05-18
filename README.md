@@ -4,7 +4,7 @@
 
 <!-- [![codecov](https://codecov.io/gh/salesfly/salesfly-go/branch/master/graph/badge.svg)](https://codecov.io/gh/salesfly/salesfly-go) -->
 
-Go client for [Objectia API](https://salesfly.com)&reg;
+Go client for [Salesfly API](https://salesfly.com)&reg;
 
 ## Documentation
 
@@ -31,7 +31,7 @@ $ go get -u github.com/stretchr/testify/assert
 
 ## Usage
 
-The library needs to be configured with your account's API key. Get your own API key by signing up for a free [Objectia account](https://salesfly.com).
+The library needs to be configured with your account's API key.
 
 ```go
 package main
@@ -82,4 +82,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Objectia is a registered trademark of [UAB Salesfly](https://www.salesfly.com).
+Salesfly is a registered trademark of [UAB Salesfly](https://www.salesfly.com).
