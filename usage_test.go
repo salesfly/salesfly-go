@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func Test_Usage_Get(t *testing.T) {
+func Test_GetUsage(t *testing.T) {
 	client, err := salesfly.NewClient(apiKey, nil)
 	assert.NoError(t, err)
 	assert.NotNil(t, client)
@@ -15,4 +15,6 @@ func Test_Usage_Get(t *testing.T) {
 	result, err := client.Usage.Get()
 	assert.NoError(t, err)
 	assert.NotNil(t, result)
+	assert.NotEqual(t, 0, result.Allowed)
+	assert.NotEqual(t, 0, result.Used)
 }

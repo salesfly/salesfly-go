@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func Test_PDF_HTML(t *testing.T) {
+func Test_CreatePDF(t *testing.T) {
 	client, err := salesfly.NewClient(apiKey, nil)
 	assert.NoError(t, err)
 	assert.NotNil(t, client)
