@@ -6,7 +6,7 @@ import (
 )
 
 const (
-	version             = "0.9.1"
+	version             = "1.0.0"
 	userAgent           = "salesfly-go/" + version
 	apiBaseURL          = "https://api.salesfly.com"
 	defaultTimeout      = 30 * time.Second

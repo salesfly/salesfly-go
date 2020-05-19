@@ -130,11 +130,11 @@ func (p *PDFOptions) ToParameters() *internal.Parameters {
 }
 
 // Create a PDF document from HTML.
-func (c *PDF) Create(params *PDFOptions) ([]byte, error) {
-	p := params.ToParameters()
+func (c *PDF) Create(options *PDFOptions) ([]byte, error) {
+	params := options.ToParameters()
 
 	var resp bytes.Buffer
-	err := c.client.post("/v1/pdf/create", p, &resp)
+	err := c.client.post("/v1/pdf/create", params, &resp)
 	if err != nil {
 		return nil, err
 	}
