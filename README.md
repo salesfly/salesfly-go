@@ -8,7 +8,7 @@ Go client for [Salesfly API](https://salesfly.com)&reg;. This client works with 
 
 ## Documentation
 
-See the [Go API docs](https://docs.salesfly.com/go/).
+See the [Go API docs](https://developers.salesfly.com/go/).
 
 ## Installation
 
