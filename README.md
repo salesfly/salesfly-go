@@ -1,10 +1,10 @@
 # salesfly-go
 
-[![Build Status](https://travis-ci.org/salesfly/salesfly-go.svg?branch=master)](https://travis-ci.org/salesfly/salesfly-go)
+<!-- [![Build Status](https://travis-ci.org/salesfly/salesfly-go.svg?branch=master)](https://travis-ci.org/salesfly/salesfly-go) -->
 
 <!-- [![codecov](https://codecov.io/gh/salesfly/salesfly-go/branch/master/graph/badge.svg)](https://codecov.io/gh/salesfly/salesfly-go) -->
 
-Go client for [Salesfly API](https://salesfly.com)&reg;
+Go client for [Salesfly API](https://salesfly.com)&reg;. This client works with [Salesfly e-commerce](https://salesfly.com) and [Salesfly PDF](https://salesflypdf.com).
 
 ## Documentation
 
